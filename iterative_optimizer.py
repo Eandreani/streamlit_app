@@ -1,9 +1,9 @@
 import pandas as pd
 import streamlit as st
 from datetime import timedelta
-from feature_engineering import generar_esqueleto_futuro, crear_features_dinamicas, generar_escenarios_semana
-from optimization_core import optimizar_semana
-from utils import create_price_grid
+from .feature_engineering import generar_esqueleto_futuro, crear_features_dinamicas, generar_escenarios_semana
+from .optimization_core import optimizar_semana
+from .utils import create_price_grid
 
 def optimizar_precios_iterativo(start_date, n_weeks_opt, df_hist_inicial, model_by_sku, info_by_sku,
                                 all_sku_ids, price_min, price_max, price_step,
