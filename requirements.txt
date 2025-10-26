@@ -1,0 +1,7 @@
+streamlit
+pandas
+scikit-learn
+numpy
+pulp
+openpyxl # Para leer archivos Excel si son subidos
+pyarrow # Para leer archivos Parquet
