@@ -12,7 +12,7 @@ from utils import (
     P_MAX_ABS_DEFAULT, UNITS_MIN_POLICY_DEFAULT, UNITS_MIN_FACTOR_HIST_DEFAULT,
     Q_MIN_ABS_DEFAULT
 )
-from streamlit_app.iterative_optimizer import optimizar_precios_iterativo
+from iterative_optimizer import optimizar_precios_iterativo
 
 # --- CONFIGURACIÓN DE PÁGINA ---
 st.set_page_config(layout="wide", page_title="Optimizador de Precios Semanal")
