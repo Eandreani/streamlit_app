@@ -5,7 +5,7 @@ from datetime import date, timedelta
 import altair as alt # Para visualizaciones
 
 # Importar funciones desde los módulos locales
-from streamlit_app.utils import (
+from utils import (
     load_bundle_pkl, load_df_hist_parquet, parse_json_input,
     N_WEEKS_OPT, PRICE_GRID_STEP, PRICE_MIN_DEFAULT, PRICE_MAX_DEFAULT,
     COSTO_UNITARIO_DEFAULT, MARGEN_MIN_DIRECTO_DEFAULT, P_MIN_ABS_DEFAULT,
